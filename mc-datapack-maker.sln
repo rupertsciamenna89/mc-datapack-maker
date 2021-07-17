@@ -3,9 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDatapackMaker", "McDatapackMaker\McDatapackMaker.csproj", "{8D626A21-A3EE-4A72-8C24-4B1DA9C0B616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDatapackMaker.Core", "McDatapackMaker.Core\McDatapackMaker.Core.csproj", "{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "- Unit Tests -", "- Unit Tests -", "{34EA9CFC-6309-43B0-A01D-82621E5D9E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A39DA633-DD62-424C-9E92-529BB2F73EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDatapackMaker.Tests", "McDatapackMaker.Tests\McDatapackMaker.Tests.csproj", "{60B40995-AF56-4B9C-A03F-19D33AC00206}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D626A21-A3EE-4A72-8C24-4B1DA9C0B616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D626A21-A3EE-4A72-8C24-4B1DA9C0B616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D626A21-A3EE-4A72-8C24-4B1DA9C0B616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D626A21-A3EE-4A72-8C24-4B1DA9C0B616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B40995-AF56-4B9C-A03F-19D33AC00206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B40995-AF56-4B9C-A03F-19D33AC00206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B40995-AF56-4B9C-A03F-19D33AC00206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B40995-AF56-4B9C-A03F-19D33AC00206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62} = {A39DA633-DD62-424C-9E92-529BB2F73EA6}
+		{60B40995-AF56-4B9C-A03F-19D33AC00206} = {34EA9CFC-6309-43B0-A01D-82621E5D9E9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E79D02C-A4A9-4264-91E6-41CA04A7AACC}
