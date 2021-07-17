@@ -5,4 +5,8 @@
     <RootNamespace>McDatapackMaker</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
 </Project>
