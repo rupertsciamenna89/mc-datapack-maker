@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDatapackMaker", "McDatapackMaker\McDatapackMaker.csproj", "{8D626A21-A3EE-4A72-8C24-4B1DA9C0B616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDatapackMaker.Core", "McDatapackMaker.Core\McDatapackMaker.Core.csproj", "{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McDatapackMaker.Core", "McDatapackMaker.Core\McDatapackMaker.Core.csproj", "{324FD3EC-F49D-4E0A-A679-8A3F75D9DB62}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "- Unit Tests -", "- Unit Tests -", "{34EA9CFC-6309-43B0-A01D-82621E5D9E9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A39DA633-DD62-424C-9E92-529BB2F73EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDatapackMaker.Tests", "McDatapackMaker.Tests\McDatapackMaker.Tests.csproj", "{60B40995-AF56-4B9C-A03F-19D33AC00206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McDatapackMaker.Tests", "McDatapackMaker.Tests\McDatapackMaker.Tests.csproj", "{60B40995-AF56-4B9C-A03F-19D33AC00206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSON Schemas", "JSON Schemas", "{E73CC07A-3231-4C73-AB0C-43BAB312703D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
